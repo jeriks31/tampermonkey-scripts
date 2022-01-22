@@ -15,16 +15,9 @@
 
     const btnSelector = 'button.site-btn-addToBasket-lg';
 
-    const readySound = new window.Howl({
-      src: ['//freesound.org/data/previews/187/187404_635158-lq.mp3'],
-      autoplay: false,
-      loop: true,
-      volume: 1.0
-    });
-
     // Scan the page for the provided selector and "click" them if present.
     function triggerClicks(sel) {
-        const button = document.querySelector(sel.selector);
+        const button = document.querySelector(sel);
         if (!button) {
             return false;
         }
@@ -34,7 +27,7 @@
 
     // function main()
     if (triggerClicks(btnSelector)) {
-        readySound.play();
+        console.log('Found and clicked button');
     } else {
         window.location.reload(true);
     }
