@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         Add Saved Items to Cart Slow
 // @namespace    https://gist.github.com/beporter/ce76204bcba35d9edb66b395bb5e9305
-// @version      0.5
-// @description  Repeatedly refresh a given "saved items" page (Amazon, Walmart, BestBuy), look for specific "Add to Cart" buttons, click them if present, and make a lot of noise on success.
-// @author       https://github.com/beporter
+// @version      1.0
+// @description  Repeatedly refresh a given page, look for specific "Add to Cart" buttons, click them if present, and make a lot of noise on success.
 // @match        https://www.power.no/data-og-tilbehoer/datakomponenter/grafikkort/gigabyte-geforce-rtx-3080-10-gb-eagle-oc-grafikkort/p-1118415/
 // @match        https://www.power.no/data-og-tilbehoer/datakomponenter/grafikkort/gigabyte-geforce-rtx-3080-eagle-10-gb-grafikkort/p-1141928/
 // @match        https://www.power.no/data-og-tilbehoer/datakomponenter/grafikkort/gigabyte-geforce-rtx-3080-vision-oc-10-gb-grafikkort/p-1121308/
@@ -15,7 +14,6 @@
 // @grant        none
 // @run-at       document-idle
 // @require      https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.min.js#sha256-/Q4ZPy6sMbk627wHxuaWSIXS1y7D2KnMhsm/+od7ptE=
-// @downloadURL  https://gist.githubusercontent.com/beporter/ce76204bcba35d9edb66b395bb5e9305/raw/add_to_cart.user.js
 // ==/UserScript==
 
 (function() {
