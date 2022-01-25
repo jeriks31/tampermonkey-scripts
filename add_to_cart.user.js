@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Add Saved Items to Cart
 // @namespace    https://gist.github.com/beporter/ce76204bcba35d9edb66b395bb5e9305
-// @version      0.5
-// @description  Repeatedly refresh a given "saved items" page (Amazon, Walmart, BestBuy), look for specific "Add to Cart" buttons, click them if present, and make a lot of noise on success.
+// @version      1.0
+// @description  Repeatedly refresh a given page, look for specific "Add to Cart" buttons, click them if present, and make a lot of noise on success.
 // @author       https://github.com/beporter
 // @match        https://www.proshop.no/Grafikkort/ASUS-GeForce-RTX-3090-TUF-24GB-GDDR6X-RAM-Grafikkort/2876764
 // @match        https://www.proshop.no/Grafikkort/ASUS-GeForce-RTX-3080-Ti-TUF-12GB-GDDR6X-RAM-Grafikkort/2955706
@@ -11,7 +11,6 @@
 // @grant        none
 // @run-at       document-idle
 // @require      https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.min.js#sha256-/Q4ZPy6sMbk627wHxuaWSIXS1y7D2KnMhsm/+od7ptE=
-// @downloadURL  https://gist.githubusercontent.com/beporter/ce76204bcba35d9edb66b395bb5e9305/raw/add_to_cart.user.js
 // ==/UserScript==
 
 (function() {
